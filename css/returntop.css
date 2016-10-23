@@ -1,0 +1,40 @@
+@charset "utf-8";
+body,ul,ol,dl,li,dt,dd,p,h1,h2,h3,h4,h5,h6,img,a,input{padding:0;margin:0;}
+ul,ol{      		list-style:none;}/* CSS Document */
+body{font:12px/1.5 "微软雅黑";color:#3e3e3e;}
+	img{border:0;display:block;}
+a{text-decoration:none;color:#909090;}
+a:hover{color:#a90a0a;}
+
+/*====================公共样式====================================*/
+.w{width:1000px; margin:0 auto;}
+.l{float:left;}
+.r{float:right;}
+
+#returntop{width:97px;height:336px;position:fixed;left:0;bottom:0;}
+#returntop a{display:block;width:95px;height:40px;border:1px solid #e6e6e6;}
+#returntop a.a1{background:url(../img/a1.jpg) no-repeat;}
+#returntop a.a2{background:url(../img/a2.jpg) no-repeat;}
+#returntop a.a3{background:url(../img/a3.jpg) no-repeat;}
+#returntop a.a4{background:url(../img/a4.jpg) no-repeat;}
+#returntop a.a5{background:url(../img/a5.jpg) no-repeat;}
+#returntop a.a6{background:url(../img/a6.jpg) no-repeat;}
+#returntop a.a7{background:url(../img/a7.jpg) no-repeat;}
+#returntop a.a8{background:url(../img/a8.jpg) no-repeat;}
+#returntop a.a1:hover{background:url(../img/b1.jpg) no-repeat;}
+#returntop a.a2:hover{background:url(../img/b2.jpg) no-repeat;}
+#returntop a.a3:hover{background:url(../img/b3.jpg) no-repeat;}
+#returntop a.a4:hover{background:url(../img/b4.jpg) no-repeat;}
+#returntop a.a5:hover{background:url(../img/b5.jpg) no-repeat;}
+#returntop a.a6:hover{background:url(../img/b6.jpg) no-repeat;}
+#returntop a.a7:hover{background:url(../img/b7.jpg) no-repeat;}
+#returntop a.a8:hover{background:url(../img/b8.jpg) no-repeat;}
+
+
+
+
+
+
+
+
+

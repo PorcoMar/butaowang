@@ -1,0 +1,253 @@
+/* ::::: http://www.butao.com/static/theme/eb_120531/css/index_base.css ::::: */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, a { margin: 0px; padding: 0px; }
+fieldset, img { border: 0px none; }
+:focus { outline: 0px none; }
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: inherit; font-weight: inherit; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+input, button, textarea, select {  }
+ol, ul { list-style: outside none none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+a { text-decoration: none; color: rgb(85, 85, 85); }
+a:hover { text-decoration: none; color: rgb(85, 85, 85); }
+.clear { clear: both; font-size: 1px; width: 1px; height: 0px; visibility: hidden; margin-top: 0px ! important; line-height: 0; }
+.clearfix {  }
+.clearfix::after { clear: both; height: 0px; overflow: hidden; display: block; visibility: hidden; content: "."; }
+body { font-size: 12px; font-family: "Microsoft Yahei","Arial","Verda","tahoma"; color: rgb(51, 51, 51); }
+#dialog { position: absolute; z-index: 9999; border: 4px solid rgb(204, 204, 204); display: none; }
+.red { color: rgb(212, 31, 43); }
+.header { position: relative; width: 1000px; height: 90px; margin: 0px auto; }
+.nav_L { float: left; height: 36px; line-height: 36px; }
+.nav_L li a { display: inline-block; color: rgb(255, 255, 255); border-left: 1px solid transparent; border-right: 1px solid transparent; }
+.nav_L li a:hover, .nav_L li .current { display: inline-block; line-height: 36px; background: rgb(180, 20, 37) none repeat scroll 0% 0%; border-left: 1px solid rgb(163, 12, 27); border-right: 1px solid rgb(163, 12, 27); cursor: pointer; color: rgb(255, 255, 255); }
+.ftw { width: 100%; padding: 25px 0px 50px; background: rgb(247, 247, 247) url('ftw_bg.png') repeat-x scroll left top; }
+.ft { width: 1000px; margin: 0px auto; }
+.ft_service { height: 130px; margin-bottom: 20px; color: rgb(153, 153, 153); }
+.ft_service ul { margin-left: 60px; }
+.ft_service li { padding-left: 8px; background: transparent url('ft_li.png') no-repeat scroll left center; line-height: 22px; }
+.ft_service li a { color: rgb(153, 153, 153); }
+.ft_service li a:hover { color: rgb(85, 85, 85); }
+.ft_htlp, .ft_work, .ft_company, .ft_shopping { float: left; width: 185px; height: 130px; }
+.ft_htlp { border-right: 1px solid rgb(233, 225, 232); }
+.ft_work { border-left: 1px solid rgb(253, 253, 253); border-right: 1px solid rgb(233, 225, 232); }
+.ft_company { border-left: 1px solid rgb(253, 253, 253); border-right: 1px solid rgb(233, 225, 232); }
+.ft_shopping { border-left: 1px solid rgb(253, 253, 253); border-right: 1px solid rgb(233, 225, 232); }
+.ft_htlp h2, .ft_work h2, .ft_company h2, .ft_shopping h2, .ft_contact h2 { width: 65px; height: 26px; line-height: 26px; padding-left: 30px; margin: 0px auto 10px; font-size: 14px; font-weight: bold; color: rgb(201, 92, 97); }
+.ft_htlp h2 { background: transparent url('ft_h2.png') no-repeat scroll 0px 0px; }
+.ft_work h2 { background: transparent url('ft_h2.png') no-repeat scroll 0px -100px; }
+.ft_company h2 { background: transparent url('ft_h2.png') no-repeat scroll 0px -150px; }
+.ft_shopping h2 { background: transparent url('ft_h2.png') no-repeat scroll 0px -50px; }
+.ft_contact h2 { width: 155px; font-size: 18px; background: transparent url('ft_h2.png') no-repeat scroll 0px -200px; margin-bottom: 20px; }
+.ft_contact h2 span { font-size: 12px; }
+.ft_contact { float: left; width: 252px; height: 100%; border-left: 1px solid rgb(253, 253, 253); background: transparent url('ft_contact_bg.png') no-repeat scroll center 35px; color: rgb(153, 153, 153); }
+.ft_contact .phone { width: 158px; height: 28px; line-height: 28px; margin: 0px auto 5px; padding-top: 25px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: 0px -154px; }
+.ft_contact .qq_line { font-size: 14px; text-align: center; font-weight: bold; }
+.ft_contact .qq_line img { vertical-align: middle; margin-bottom: 3px; }
+.ft_contact .time { text-align: center; font-size: 12px; line-height: 24px; }
+.ft_links_wrap { width: 100%; height: 36px; line-height: 36px; background-color: rgb(211, 28, 40); margin-bottom: 10px; }
+.ft_links { width: 1000px; margin: 0px auto; text-align: center; color: rgb(255, 255, 255); }
+.ft_links a { color: rgb(255, 255, 255); padding: 0px 10px; }
+.ft_copyright { width: 1000px; text-align: center; color: rgb(153, 153, 153); line-height: 26px; margin-bottom: 10px; }
+.ft_cert { width: 1000px; text-align: center; }
+.ft_cert a { margin: 0px 6px; }
+.home_go_top_R { width: 100px; position: fixed; top: 200px; right: 50%; margin-right: -610px; z-index: 999; }
+.home_qq { width: 98px; border-width: 2px 1px 1px; border-style: solid; border-color: rgb(207, 19, 33) rgb(225, 225, 225) rgb(225, 225, 225); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(255, 250, 246); }
+.home_qq li { border-bottom: 1px dashed rgb(225, 225, 225); line-height: 20px; display: block; margin: 0px 5px; padding: 3px 0px; text-align: center; }
+.home_qq .qq { display: block; text-indent: -9999px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: -28px -36px; height: 21px; width: 80px; margin-left: 6px; }
+.home_qq .exp { display: block; text-indent: -9999px; height: 46px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: -95px -61px; width: 90px; }
+.home_qq .fav { display: block; text-indent: -9999px; height: 43px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: 0px -107px; width: 90px; }
+.home_qq .myorder { display: block; text-indent: -9999px; height: 43px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: 0px -61px; width: 90px; }
+.home_qq .no_border { border-bottom: medium none; }
+.home_go_top { display: block; width: 98px; height: 27px; border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(225, 225, 225) rgb(225, 225, 225); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; text-indent: -9999px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: -95px -110px; }
+.topshop { width: 1000px; height: 26px; line-height: 26px; margin: 0px auto; }
+.topshop .line { display: inline-block; width: 1px; height: 26px; text-indent: -9999px; margin-right: 10px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: -153px -36px; margin-top: 6px; }
+.topshop li { float: left; margin-right: 10px; }
+.topshop li a:hover { color: rgb(211, 27, 38); }
+.topshop .topleft { float: left; display: inline-block; }
+.topshop .collect { display: inline-block; padding-left: 22px; background: transparent url('collect.png') no-repeat scroll left top; }
+.topshop .qklogin { position: relative; }
+.topshop .qklogin dt a { display: block; width: 50px; padding: 0px 25px 0px 10px; cursor: pointer; }
+.topshop .qklogin dt a:hover { text-decoration: none; }
+.topshop .qklogin dt a b { position: absolute; right: 3px; top: 0px; z-index: 4900; width: 20px; height: 26px; background: transparent url('icon_top.png') no-repeat scroll 5px 11px; }
+.topshop .qklogin dd { position: absolute; top: 27px; right: 4px; z-index: 4850; width: 113px; padding: 1px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); display: none; }
+.topshop .qklogin dd li { float: none; margin: 0px; width: 113px; height: 26px; line-height: 26px; border-bottom: 1px solid rgb(204, 204, 204); background-color: rgb(240, 240, 240); }
+.topshop .qklogin dd li a { display: block; width: 93px; padding: 0px 10px; color: rgb(85, 85, 85); }
+.topshop .qklogin dd li a span { display: block; padding-left: 22px; }
+.topshop .qklogin dd li a:hover { display: block; background: transparent url('topbga.png') repeat-x scroll 0% 0%; color: rgb(211, 27, 38); text-decoration: none; }
+.topshop .qklogin dd .last { border: medium none; }
+.topshop .qklogin dd .baidu { background: transparent url('qkbaidu.png') no-repeat scroll left center; }
+.topshop .qklogin dd .alipay { background: transparent url('qkalipay.png') no-repeat scroll left center; }
+.topshop .qklogin dd .sina { background: transparent url('qksina.png') no-repeat scroll left center; }
+.topshop .qklogin dd .qq { background: transparent url('qkqq.png') no-repeat scroll left center; }
+.topshop .topright { float: right; }
+.topshop .mybutao { position: relative; }
+.topshop .mybutao dt a { display: block; width: 50px; padding: 0px 25px 0px 10px; cursor: pointer; }
+.topshop .mybutao dt a b { position: absolute; right: 3px; top: 0px; z-index: 4900; width: 20px; height: 26px; background: transparent url('icon_top.png') no-repeat scroll 5px 11px; }
+.topshop .mybutao dd { position: absolute; top: 27px; right: 4px; z-index: 4850; width: 95px; padding: 1px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); display: none; }
+.topshop .mybutao dd li { float: none; margin: 0px; width: 95px; height: 26px; line-height: 26px; border-bottom: 1px solid rgb(204, 204, 204); background-color: rgb(240, 240, 240); }
+.topshop .mybutao dd li a { display: block; width: 75px; padding: 0px 10px; color: rgb(85, 85, 85); }
+.topshop .mybutao dd li a:hover { display: block; background: transparent url('topbga.png') repeat-x scroll 0% 0%; color: rgb(211, 27, 38); }
+.topshop .mybutao dd .last { border: medium none; }
+.topshop .follow { position: relative; }
+.topshop .follow dt a { display: block; width: 50px; padding: 0px 25px 0px 10px; cursor: pointer; }
+.topshop .follow dt a b { position: absolute; right: 3px; top: 0px; z-index: 4900; width: 20px; height: 26px; background: transparent url('icon_top.png') no-repeat scroll 5px 11px; }
+.topshop .follow dd { position: absolute; top: 27px; right: 4px; z-index: 4850; width: 90px; padding: 1px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); display: none; }
+.topshop .follow dd li { float: none; margin: 0px; width: 90px; height: 26px; line-height: 26px; border-bottom: 1px solid rgb(204, 204, 204); background-color: rgb(240, 240, 240); }
+.topshop .follow dd li a { display: block; width: 70px; padding: 0px 10px; color: rgb(85, 85, 85); height: 26px; line-height: 26px; }
+.topshop .follow dd li a span { display: block; padding-left: 22px; }
+.topshop .follow dd li a:hover { display: block; background: transparent url('topbga.png') repeat-x scroll 0% 0%; color: rgb(211, 27, 38); }
+.topshop .follow dd .last { border: medium none; }
+.topshop .follow dd .weibosina { background: transparent url('weibosina.png') no-repeat scroll left center; }
+.topshop .follow dd .weiboqq { background: transparent url('weiboqq.png') no-repeat scroll left center; }
+.shopheader { position: relative; z-index: 4000; width: 1000px; height: 89px; margin: 0px auto; }
+.shopheadlogo { display: block; position: absolute; left: 0px; top: 15px; width: 193px; height: 67px; background: transparent url('05_shoplogo.png') no-repeat scroll 0% 0%; text-indent: -9999px; }
+.shopheadsearch { position: absolute; left: 210px; top: 20px; width: 460px; height: 34px; }
+.shopheadsearch .lbg { float: left; width: 34px; height: 34px; background: transparent url('05_search_bg.png') no-repeat scroll left center; text-indent: -9999px; }
+.shopheadsearch .text { float: left; width: 340px; height: 30px; line-height: 30px; background-color: rgb(255, 255, 255); border-width: 2px 0px; border-style: solid none; border-color: rgb(194, 5, 37) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; color: rgb(204, 204, 204); }
+.shopheadsearch .btn { float: left; width: 85px; height: 34px; background: transparent url('05_search_bg.png') no-repeat scroll right center; text-indent: -9999px; border: 0px none; }
+.shopkeyword { position: absolute; left: 220px; top: 56px; width: 460px; height: 20px; line-height: 20px; }
+.shopkeyword a { float: left; margin-right: 10px; font-size: 12px; color: rgb(153, 153, 153); }
+.shopkeyword a:hover { color: rgb(211, 27, 38); }
+.shopheader.header .adver { position: absolute; right: 32px; top: 18px; height: 60px; width: 294px; }
+.shopnavwrap { margin-bottom: 10px; width: 100%; min-width: 1000px; height: 34px; padding: 5px 0px 2px; background: transparent url('05_shopnwbg.png') repeat-x scroll 0% 0%; }
+.shopnav { position: relative; z-index: 3000; width: 1000px; height: 35px; margin: 0px auto; }
+.shopnav .nav { position: absolute; left: 0px; top: 0px; height: 34px; line-height: 32px; }
+.shopnav .nav li { float: left; }
+.shopnav .nav li a { display: block; float: left; height: 34px; font-size: 16px; line-height: 32px; padding: 0px 0px 0px 12px; font-family: "微软雅黑"; }
+.shopnav .nav li a span { display: block; color: rgb(255, 255, 255); padding: 0px 24px 0px 12px; }
+.shopnav .nav li a:hover, .shopnav .nav li a.current { background: rgb(169, 10, 10) none repeat scroll left center; }
+.shopnav .nav li a:hover span, .shopnav .nav li a.current span { background: rgb(169, 10, 10) none repeat scroll right center; color: rgb(255, 255, 255); }
+.shopnav .nav .line { float: left; display: block; width: 2px; height: 34px; text-indent: -9999px; background-image: url('css_spirit.png'); background-repeat: no-repeat; background-position: 0px -27px; }
+#J_sign_2 { border: 1px solid rgb(193, 23, 19); display: none; position: absolute; right: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; top: 35px; font: 12px/20px ""; color: rgb(102, 102, 102); z-index: 5; }
+.login_board .con, .side_panel .login_board .con { padding: 10px; }
+#J_sign_2 a { margin-right: 5px; padding: 0px; color: rgb(0, 153, 204); font-size: 14px; }
+#J_sign_2 b { color: rgb(224, 47, 47); }
+.mbar-mod-container { position: fixed; width: 36px; height: 100%; float: left; top: 0px; z-index: 1200; }
+.mbar-mod-container .mbar-mod-body { position: absolute; left: -36px; top: 0px; width: 36px; height: 100%; border-right: 1px solid rgb(206, 206, 206); background-attachment: scroll; background-color: rgb(0, 0, 0); background-image: none; background-repeat: repeat; background-position: 0% 0%; }
+.mbar-bd { height: 100%; }
+.mbar-bd .mbar-tabs { width: 36px; position: absolute; left: 0px; top: 30%; z-index: 10; }
+.mbar-tab { text-align: center; display: block; color: rgb(85, 85, 85); position: relative; margin-bottom: 10px; padding: 8px 4px; }
+.mabar-icon { display: block; width: 25px; height: 25px; margin: 0px auto; background-attachment: scroll; background-color: transparent; background-image: url('rifu.png'); background-repeat: no-repeat; background-position: 0% 0%; }
+.mabar-ico-account { background-position: 0px 0px; }
+.mabar-ico-super { background-position: 0px -25px; }
+.mabar-ico-msg { background-position: 0px -50px; }
+.mabar-ico-contact { background-position: 0px -75px; }
+.mbar-mod-container .mbar-tab:hover { color: rgb(255, 255, 255); background-attachment: scroll; background-color: rgb(169, 10, 10); background-image: none; background-repeat: repeat; background-position: 0% 0%; }
+.mbar-mod-container .mbar-tab .mbar-mod-bd { margin-top: 5px; display: block; line-height: 20px; font-family: "宋体"; color: rgb(255, 255, 255); }
+#BarCartNo { display: inline-block; width: 20px; line-height: 20px; border-radius: 50%; color: rgb(255, 255, 255); background-attachment: scroll; background-color: rgb(169, 10, 10); background-image: none; background-repeat: repeat; background-position: 0% 0%; margin-top: 3px; }
+.rightbar { width: 300px; height: 100%; position: fixed; right: -300px; top: 0px; z-index: 9999; background-color: rgb(255, 255, 255); }
+#RightBarNav { font-family: Arial,"微软雅黑"; width: 260px; height: 100%; float: right; overflow: auto; }
+.rbar-cart-wrap { overflow: hidden; }
+.rbar-cart-tit { height: 41px; line-height: 41px; font-size: 14px; border-bottom: 1px solid rgb(229, 229, 229); margin: 0px 20px 0px 5px; }
+.rel { position: relative; }
+.rbar-cart-cont { overflow: hidden; }
+.rbar-cart-roll { width: 100%; }
+.abs { position: absolute; }
+.rbar-roll-ul { padding: 0px 20px 0px 5px; }
+.zoom { overflow: hidden; }
+.rbar-cart-fot { height: 108px; padding: 0px 28px; }
+.rbar-view { text-align: center; height: 32px; line-height: 32px; }
+.rbar-view a { color: rgb(161, 161, 161); font-size: 14px; font-family: "宋体"; }
+.rbar-sel { color: rgb(51, 51, 51); font-size: 14px; font-family: "微软雅黑"; }
+.rbar-sel i { color: rgb(207, 27, 27); font-weight: 700; font-family: "微软雅黑"; font-style: normal; }
+.bar-icon { background-image: url('jiesuan.jpg'); background-repeat: no-repeat; color: rgb(255, 255, 255); display: block; width: 33px; text-decoration: none; }
+.rbar-goorder { width: 221px; height: 27px; line-height: 100px; overflow: hidden; margin: 10px auto 0px; }
+h4 em { font-size: 36px; float: left; }
+h4 em b { font-size: 22px; color: rgb(255, 0, 0); font-style: normal; }
+h4 em i { font-size: 36px; font-family: "微软雅黑"; color: rgb(255, 0, 0); margin-top: 3px; font-style: normal; }
+h4 span { color: rgb(255, 0, 0); font-size: 14px; font-style: normal; float: left; margin-top: 5px; }
+h4 span u { color: rgb(164, 158, 158); text-decoration: line-through; font-style: normal; }
+h4 span strong { display: block; font-size: 12px; color: rgb(164, 158, 158); }
+.clear { clear: both; overflow: hidden; height: 0px; }
+.index_collection { border-bottom: 1px solid rgb(221, 221, 221); margin-bottom: 5px; font-size: 12px; }
+.index_collection .area { color: rgb(102, 102, 102); font-size: 14px; margin: 0px auto; text-align: center; width: 980px; }
+.index_collection .area strong { font-size: 14px; }
+.index_collection .area em { color: rgb(197, 20, 12); font-size: 14px; font-weight: 800; margin: 0px 5px; }
+.index_collection .top { background: rgb(255, 244, 219) none repeat scroll 0px 0px; border-bottom: 1px solid rgb(255, 255, 255); height: 35px; line-height: 37px; overflow: hidden; }
+.index_collection .top p { background: transparent url('collection_bg.png') no-repeat scroll 0px center; cursor: pointer; display: inline-block; float: right; padding-left: 10px; vertical-align: middle; }
+.index_collection .top a { color: rgb(197, 20, 12); }
+.index_collection .top span { display: inline-block; margin-left: 20px; }
+/* ::::: http://www.butao.com/static/theme/eb_120531/1115/css/index.css ::::: */
+
+body, h1, h2, h3, h4, h5, h6, ul, li, p, form, ol, dl, dt, dd, input { margin: 0px; padding: 0px; }
+body { font-size: 12px; line-height: 1.7; }
+ul { list-style: outside none none; }
+a { text-decoration: none; }
+p { text-align: justify; }
+a:hover { color: rgb(232, 57, 13); }
+.clear { clear: both; overflow: hidden; height: 0px; }
+.fr { float: right; }
+.rel { position: relative; }
+.abs { position: absolute; }
+input:focus { outline: medium none; }
+.banner { background: transparent url('christmas.jpg') no-repeat scroll center 0px; height: 284px; margin-bottom: 20px; margin-top: -10px; }
+.contenter { width: 1000px; margin: 0px auto; font-family: "微软雅黑"; }
+.title { background: transparent url('hot_18.jpg') no-repeat scroll 0% 0%; height: 40px; line-height: 40px; margin-bottom: 20px; }
+.title1 { background: transparent url('index_45.jpg') no-repeat scroll 0% 0%; height: 40px; line-height: 40px; margin-bottom: 20px; }
+.title2 { background: transparent url('index_61.jpg') no-repeat scroll 0% 0%; height: 40px; line-height: 40px; margin-bottom: 20px; }
+.title3 { background: transparent url('index_63.jpg') no-repeat scroll 0% 0%; height: 40px; line-height: 40px; margin-bottom: 20px; }
+.title4 { background: transparent url('index_65.jpg') no-repeat scroll 0% 0%; height: 40px; line-height: 40px; margin-bottom: 20px; }
+.title5 { background: transparent url('index_67.jpg') no-repeat scroll 0% 0%; height: 40px; line-height: 40px; margin-bottom: 20px; }
+.hot { float: left; font-size: 18px; color: rgb(255, 255, 255); margin-left: 48px; }
+.hot a { color: rgb(255, 255, 255); }
+.list { float: left; margin-left: 26px; }
+.list li { margin-right: 10px; }
+.list a { font-size: 14px; color: rgb(73, 71, 71); }
+.list a:hover { color: rgb(230, 0, 18); }
+.more { float: right; }
+.more a { color: rgb(40, 39, 39); font-size: 14px; }
+.more a:hover { color: rgb(230, 0, 18); }
+.list li { float: left; }
+.content li { width: 298px; height: 287px; border: 1px solid rgb(215, 211, 211); padding: 10px 10px 0px; margin-right: 20px; float: left; margin-bottom: 10px; border-radius: 5px; }
+.content li:hover { border: 1px solid rgb(230, 0, 18); box-shadow: 0px 0px 15px rgb(154, 154, 154); }
+.titlename { font-size: 14px; color: rgb(52, 52, 52); }
+.one { margin-bottom: 20px; }
+.tl1 { font-size: 16px; color: rgb(34, 33, 33); text-align: center; }
+.tl2 { font-size: 14px; color: rgb(117, 117, 117); text-align: center; }
+.tcon_left { float: left; width: 534px; }
+.tu { display: block; width: 534px; }
+.tcon_right { float: right; width: 461px; }
+.tr_left { float: left; width: 230px; }
+.tr_left a { display: block; }
+.tr_right { float: right; width: 230px; }
+.tcon { margin-bottom: 20px; }
+.two .content em { color: rgb(238, 133, 154); }
+.two .content li:hover { border: 1px solid rgb(238, 133, 154); }
+.three .content em { color: rgb(31, 81, 162); }
+.three .content li:hover { border: 1px solid rgb(31, 81, 162); }
+.four .content em { color: rgb(246, 198, 136); }
+.four .content li:hover { border: 1px solid rgb(246, 198, 136); }
+.cf { position: fixed; left: 0px; bottom: 0px; }
+.cf ul li .rm1 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cfd_39.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm1:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('index_77.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm2 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cfd_42.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm2:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('zsa_80.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm0 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cd_top.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm0:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('index_top.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm3 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cfd_49.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm3:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('zsa_82.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm4 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cfd_54.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm4:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('zsa_84.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm5 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cfd_58.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm5:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('zsa_86.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm6 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cfd_63.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm6:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('zsa_88.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm7 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('cfd_73.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm7:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('zsa_92.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm0 { display: block; width: 95px; height: 40px; border: 1px solid rgb(230, 230, 230); background: transparent url('fhsy1.jpg') repeat scroll 0% 0%; }
+.cf ul li .rm0:hover { border: 1px solid rgb(255, 0, 4); background: transparent url('fhsy2.jpg') repeat scroll 0% 0%; }
+u { font-size: 14px; color: rgb(151, 147, 147); text-decoration: line-through; }
+.ifoot { width: 1000px; margin: 0px auto; }
+.tiao { background: transparent url('index_124.jpg') no-repeat scroll center center; height: 19px; }
+.tiao a { font-size: 18px; color: rgb(87, 86, 87); margin-left: 470px; line-height: 19px; }
+.sort li { width: 142px; background: transparent url('index_138.jpg') no-repeat scroll right bottom; height: 160px; float: left; margin: 0px 10px; }
+.sort li p { text-align: center; font-family: "微软雅黑"; font-weight: bold; }
+.sort a { display: block; width: 65px; height: 24px; text-align: center; float: left; color: rgb(95, 94, 95); }
+.sort a:hover { text-decoration: underline; color: rgb(0, 0, 0); }
+h4 em { font-size: 26px; float: left; }
+h4 em b { font-size: 22px; color: rgb(255, 0, 0); font-style: normal; }
+h4 em i { font-size: 26px; font-family: "微软雅黑"; color: rgb(255, 0, 0); margin-top: 3px; font-style: normal; }
+h4 span { color: rgb(255, 0, 0); font-size: 14px; font-style: normal; float: left; margin-top: 5px; }
+h4 span u { color: rgb(164, 158, 158); text-decoration: line-through; font-style: normal; }
+h4 span strong { display: block; font-size: 12px; color: rgb(164, 158, 158); }

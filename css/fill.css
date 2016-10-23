@@ -1,0 +1,31 @@
+#fill{height:773px;background:#f3f1f4;}
+#fill .w{height:773px;}
+#fill .w ._left{width:445px;height:543px;}
+#fill .w ._left .nav{width:445px;height:115px;}
+#fill .w ._left .nav .se{margin-top:70px;cursor:pointer;}
+#fill .w ._left .content{border:1px solid #e1e0e2;width:443px;height:560px;border-radius: 10px;position:relative;}
+#fill .w ._left .content .form{border:1px solid #fff;width:421px;height:560px;border-radius: 10px;padding-left:20px;background: #eeecef;}
+#fill .w ._left .content .form ul{height:360px;width:421px;font-size:12px;position:relative;}
+#fill .w ._left .content .form ul li{height:57px;width:348px;}
+#fill .w ._left .content .form ul li b{width:70px;height:36px;line-height:36px;text-align:right;float:left;margin-left:26px;}
+#fill .w ._left .content .form ul li input{width:246px;height:34px;border:1px solid #e5e3e5;border:1px solid #e1e0e2;border-radius: 4px;float:right;out-line:none;}
+#fill .w ._left .content .form ul li span{float:left;margin:0px 0px 0 102px;color:#d21522;}
+#fill .w ._left .content .form ul li.li1{margin-top:20px;}
+#fill .w ._left .content .form ul li.li1 span{display:none;}
+#fill .w ._left .content .form ul li span.span4{display:none;}
+#fill .w ._left .content .form ul li.li5 input{width:13px;height:13px;float:left;height:36px;line-height:36px;margin-left:102px;}
+#fill .w ._left .content .form ul li.li5 span{color:#333333;height:36px;line-height:36px;margin:0px 0px 0 7px;}
+#fill .w ._left .content .form ul li.li6 img{margin-left:102px;}
+#fill .w ._left .content .form .bott{border-top:1px solid #fff;}
+#fill .w ._left .content .form .bott p{font:12px/34px "微软雅黑";height:34px;}
+#fill .w ._left .content .form .bott img{margin:0 9px 10px 0; }
+#fill .w ._right{margin-top:115px;}
+
+#fill .w ._left .content .form ul .yes1{width:21px;height:21px;position:absolute;top:8px;left:357px;display:none;}
+#fill .w ._left .content .form ul .yes2{width:21px;height:21px;position:absolute;top:64px;left:357px;display:none;}
+#fill .w ._left .content .form ul .yes3{width:21px;height:21px;position:absolute;top:123px;left:357px;display:none;}
+#fill .w ._left .content .form ul .yes4{width:21px;height:21px;position:absolute;top:180px;left:357px;display:none;}
+#fill .w ._left .content .form ul .yes11{width:21px;height:21px;position:absolute;top:8px;left:357px;display:none;}
+#fill .w ._left .content .form ul .yes22{width:21px;height:21px;position:absolute;top:64px;left:357px;display:none;}
+#fill .w ._left .content .form ul .yes33{width:21px;height:21px;position:absolute;top:123px;left:357px;display:none;}
+#fill .w ._left .content .form ul .yes44{width:21px;height:21px;position:absolute;top:180px;left:357px;display:none;}
